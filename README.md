@@ -29,10 +29,17 @@ The project's program follows the steps below:
 
 ## Data Source Information
 Using the OpenWeatherMap API, it was possible to build a dataframe with the name, country, latitude, longitude, max temperature, humidity, cloudiness and weather description for each of the cities randomly generated, as shown in this screenshot:
-### Image 1: DataFrame Sample
+### Image 1: Cities DataFrame Sample
 ![Image1](https://github.com/Peteresis/World_Weather_Analysis/blob/42214138744912227672dea04a0297cd5275f3a2/Vacation_Search/DataFrame.png)
 
-Using 
+The information collected in the `Cities DataFrame` was used to collect hotel information for each city by making calls to the Google Maps API.  Once the hotel name for each city was retrieved, the information from Google Maps was combined with the information from OpenWeatherMap and a new DataFrame was created.  This time, however, the DataFrame was fltered using the Max and Min Temperature selected by the user.
+
+### Image 2: Hotels DataFrame Sample
+![Image2](https://github.com/Peteresis/World_Weather_Analysis/blob/80063b7c030bd69be5657c2a39be5ee741cea8c8/Vacation_Search/Hotels%20DataFrame.png)
+
+
+The second DataFrame contained the following information
+
 ## Software Used
 
 ## 
