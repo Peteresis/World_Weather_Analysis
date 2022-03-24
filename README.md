@@ -32,13 +32,20 @@ Using the OpenWeatherMap API, it was possible to build a dataframe with the name
 ### Image 1: Cities DataFrame Sample
 ![Image1](https://github.com/Peteresis/World_Weather_Analysis/blob/42214138744912227672dea04a0297cd5275f3a2/Vacation_Search/DataFrame.png)
 
-The information collected in the `Cities DataFrame` was used to collect hotel information for each city by making calls to the Google Maps API.  Once the hotel name for each city was retrieved, the information from Google Maps was combined with the information from OpenWeatherMap and a new DataFrame was created.  This time, however, the DataFrame was fltered using the Max and Min Temperature selected by the user.
+The information collected in the `Cities DataFrame` was used to collect hotel information for each city by making calls to the Google Maps API.  Once the hotel name for each city was retrieved, the information from Google Maps was combined with the information from OpenWeatherMap and a new DataFrame was created.  This time, however, the DataFrame was filtered using the Max and Min Temperature selected by the user.
+
+The new DataFrame contains the city name, country, max temperature, current weather description, latitude, longitude, and hotel name 
 
 ### Image 2: Hotels DataFrame Sample
 ![Image2](https://github.com/Peteresis/World_Weather_Analysis/blob/80063b7c030bd69be5657c2a39be5ee741cea8c8/Vacation_Search/Hotels%20DataFrame.png)
 
+Once all the information was collected and organized, it was possible to plot the location of all the hotels listed in the Hotels DataFrame by making calls to the API of Google Maps.  The result is shown in the following image:
 
-The second DataFrame contained the following information
+### Image 3: Hotels Location Plot Using Google Maps
+![Image3]()
+
+# Place holder for hotels map plot
+
 
 ## Software Used
 
