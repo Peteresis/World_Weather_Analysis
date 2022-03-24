@@ -46,6 +46,11 @@ Once all the information was collected and organized, it was possible to plot th
 
 # Place holder for hotels map plot
 
+The final step was to select 4 cities from the map above and call `Directions API` from Google Maps to trace a route that started in one city traversed through the other 3 cities and returned to the starting point.  In this example, a route connecting the argentinian cities of Ushuaia (starting point), Comodoro Rivadavia, Mar Del Plata and San Luis, can be seen in the next image:
+
+### Image 4: Directions Map between foru cities selected from the Hotels DataFrame
+![Image4](https://github.com/Peteresis/World_Weather_Analysis/blob/a44f9d1148ca390ea7cc2eaa47501f5973d191ac/Vacation_Itinerary/WeatherPy_travel_map.png)
+
 
 ## Software Used
 
