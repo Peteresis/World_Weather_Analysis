@@ -1,5 +1,7 @@
 # World Weather Analysis
+
 #### Unit 6 Challenge
+
 During Unit 6 we learned to use several new tools to increase our knowledge of Python in Data Analysis.  The challenge makes use of all those new tools to create an application to help users plan their trips by finding hotels that meet certain criteria specified by a user, and create a map that shows an itinerary between cities selected by the user.
 
 Some of the new tools learned are:
@@ -29,10 +31,11 @@ The project's program follows the steps below:
 
 ## Data Source Information
 Using the OpenWeatherMap API, it was possible to build a dataframe with the name, country, latitude, longitude, max temperature, humidity, cloudiness and weather description for each of the cities randomly generated, as shown in this screenshot:
+
 ### Image 1: Cities DataFrame Sample
 ![Image1](https://github.com/Peteresis/World_Weather_Analysis/blob/42214138744912227672dea04a0297cd5275f3a2/Vacation_Search/DataFrame.png)
 
-The information collected in the `Cities DataFrame` was used to collect hotel information for each city by making calls to the Google Maps API.  Once the hotel name for each city was retrieved, the information from Google Maps was combined with the information from OpenWeatherMap and a new DataFrame was created.  This time, however, the DataFrame was filtered using the Max and Min Temperature selected by the user.
+The information gathered in the `Cities DataFrame` was utilized to acquire hotel information for each city via Google Maps API calls. Once the hotel name for each city was obtained, the data from Google Maps was coupled with the data from OpenWeatherMap to build a new DataFrame. This time, however, the DataFrame was filtered using the user-selected Max and Min Temperatures.
 
 The new DataFrame contains the city name, country, max temperature, current weather description, latitude, longitude, and hotel name 
 
@@ -46,12 +49,11 @@ Once all the information was collected and organized, it was possible to plot th
 
 # Place holder for hotels map plot
 
-The final step was to select 4 cities from the map above and call `Directions API` from Google Maps to trace a route that started in one city traversed through the other 3 cities and returned to the starting point.  In this example, a route connecting the argentinian cities of Ushuaia (starting point), Comodoro Rivadavia, Mar Del Plata and San Luis, can be seen in the next image:
+The next stage was to select four cities from the map above and use Google Maps' `Directions API` to trace a route that began in one city, passed through three others, and returned to the starting location. The following image depicts a path connecting the argentinian cities of Ushuaia (beginning point), Comodoro Rivadavia, Mar Del Plata, and San Luis:
 
-### Image 4: Directions Map between foru cities selected from the Hotels DataFrame
+### Image 4: Directions Map between four cities selected from the Hotels DataFrame
 ![Image4](https://github.com/Peteresis/World_Weather_Analysis/blob/a44f9d1148ca390ea7cc2eaa47501f5973d191ac/Vacation_Itinerary/WeatherPy_travel_map.png)
 
+## Conclusions
 
-## Software Used
-
-## 
+There is an abundance of data available online that can be used for a variety of purposes either for data analysis or general computer programming. However, since the information is made available to programmers through the use of APIs, learning how to programmatically obtain information from an API and then parse the information retrieved to extract only those snippets of information that are useful for our work is critical to becoming a programmer with a solid foundation.  
