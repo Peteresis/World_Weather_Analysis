@@ -45,14 +45,15 @@ The new DataFrame contains the city name, country, max temperature, current weat
 Once all the information was collected and organized, it was possible to plot the location of all the hotels listed in the Hotels DataFrame by making calls to the API of Google Maps.  The result is shown in the following image:
 
 ### Image 3: Hotels Location Plot Using Google Maps
-![Image3]()
-
-# Place holder for hotels map plot
+![Image3](https://github.com/Peteresis/World_Weather_Analysis/blob/70b31562568600191e3f650012f8672330694067/Vacation_Itinerary/hotel%20markers.png)
 
 The next stage was to select four cities from the map above and use Google Maps' `Directions API` to trace a route that began in one city, passed through three others, and returned to the starting location. The following image depicts a path connecting the argentinian cities of Ushuaia (beginning point), Comodoro Rivadavia, Mar Del Plata, and San Luis:
 
 ### Image 4: Directions Map between four cities selected from the Hotels DataFrame
 ![Image4](https://github.com/Peteresis/World_Weather_Analysis/blob/a44f9d1148ca390ea7cc2eaa47501f5973d191ac/Vacation_Itinerary/WeatherPy_travel_map.png)
+
+### Image 5: Hotel Marker Overlay
+![Image5](https://github.com/Peteresis/World_Weather_Analysis/blob/70b31562568600191e3f650012f8672330694067/Vacation_Itinerary/hotel%20overlay.png)
 
 ## Conclusions
 
